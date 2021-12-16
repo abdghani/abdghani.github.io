@@ -1,182 +1,231 @@
 <!DOCTYPE html>
 <html ng-app="projects">
-  <head>
-    <title>Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles-2.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-  </head>
-  <body ng-controller="project_controller">
-    <div class="wrapper">
-      <div class="sidebar-wrapper">
-        <!-- Picture and Name -->
-        <div class="profile-container">
-          <img class="profile" src="images/mypic.jpeg" alt="" width="150px" />
-          <h1 class="name">Abdullah Ghani</h1>
-          <h5 class="">Founder @CxSaas Technologies Pvt. Ltd.</h5>
+
+<head>
+  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles-2.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+
+<body ng-controller="project_controller">
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <!-- Picture and Name -->
+      <div class="profile-container">
+        <img class="profile" src="images/me.jpeg" alt="" width="150px" />
+        <h1 class="name">Abdullah Ghani</h1>
+        <h5 class="">Founder <strong><a href="https://decodecx.com" target="_blank">@Decodecx</a></strong></h5>
+      </div>
+
+      <!-- details/contacts -->
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="email"><i class="fa fa-envelope"></i><a
+              href="mailto: abdullah.ghani3@gmail.com">abdullah.ghani3@gmail.com</a></li>
+          <li class="phone"><i class="fa fa-phone"></i><a href="+919547998800">+91-9547998800</a></li>
+          <li class="linkedin"><i class="fa fa-linkedin"></i><a
+              href="https://in.linkedin.com/in/abdullah-ghani-76a7b0115"
+              target="_blank">linkedin.com/in/abdullah-ghani-76a7b0115</a></li>
+          <li class="github"><i class="fa fa-github"></i><a href="https://github.com/abdghani"
+              target="_blank">https://github.com/abdghani</a></li>
+          <li class="facebook"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/abdullah.ghani.90"
+              target="_blank">@abdullah.ghani.90</a></li>
+        </ul>
+      </div>
+
+      <!-- Education -->
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item">
+          <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> SECONDARY</h4>
+          <h5 class="meta">HSMS,Durgapur</h5>
+          <div class="time">2011</div>
         </div>
-        <!-- details/contacts -->
-        <div class="contact-container container-block">
-          <ul class="list-unstyled contact-list">
-            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: abdullah.ghani3@gmail.com">abdullah.ghani3@gmail.com</a></li>
-            <li class="phone"><i class="fa fa-phone"></i><a href="+919547998800">+91-9547998800</a></li>
-            <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/abdullah-ghani-76a7b0115" target="_blank">linkedin.com/in/abdullah-ghani-76a7b0115</a></li>
-            <li class="github"><i class="fa fa-github"></i><a href="https://github.com/abdghani" target="_blank">https://github.com/abdghani</a></li>
-            <li class="facebook"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/abdullah.ghani.90" target="_blank">@abdullah.ghani.90</a></li>
-          </ul>
+        <div class="item">
+          <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> SENIOR SECONDARY</h4>
+          <h5 class="meta">HSMS,Durgapur</h5>
+          <div class="time">2013</div>
         </div>
-        <!-- Education -->
-        <div class="education-container container-block">
-          <h2 class="container-block-title">Education</h2>
-          <div class="item">
-            <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> SECONDARY</h4>
-            <h5 class="meta">HSMS,Durgapur</h5>
-            <div class="time">2011</div>
-          </div>
-          <div class="item">
-            <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> SENIOR SECONDARY</h4>
-            <h5 class="meta">HSMS,Durgapur</h5>
-            <div class="time">2013</div>
-          </div>
-          <div class="item">
-            <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> BTECH IN COMPUTER SCIENCE</h4>
-            <h5 class="meta">NSEC , Kolkata</h5>
-            <div class="time"></div>
-          </div>
-        </div>
-        <!--//education-container-->
-        <!-- Languages -->
-        <div class="languages-container container-block">
-          <h2 class="container-block-title">Languages</h2>
-          <ul class="list-unstyled interests-list">
-            <li><i class="glyphicon glyphicon-triangle-right"></i> English <span class="lang-desc"></span></li>
-            <li><i class="glyphicon glyphicon-triangle-right"></i> Bengali <span class="lang-desc">(native)</span></li>
-            <li><i class="glyphicon glyphicon-triangle-right"></i> Hindi <span class="lang-desc"></span></li>
-          </ul>
-        </div>
-        <!-- Interests -->
-        <div class="interests-container container-block">
-          <h2 class="container-block-title">Interests</h2>
-          <ul class="list-unstyled interests-list">
-            <li> <i class="glyphicon glyphicon-triangle-right"></i>Coding</li>
-            <li> <i class="glyphicon glyphicon-triangle-right"></i>Music</li>
-          </ul>
+        <div class="item">
+          <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> BTECH IN COMPUTER SCIENCE</h4>
+          <h5 class="meta">NSEC , Kolkata</h5>
+          <div class="time"></div>
         </div>
       </div>
-      <!-- main content -->
-      <div class="main-wrapper">
-        <!-- about you -->
-        <section class="section summary-section">
-          <h2 class="section-title"><i class="fa fa-user"></i>About</h2>
-          <div class="summary">
-            <p style="">
-              A FULLSTACK engineer with interest in ML and NLP. Currently Working on building the platform at decodecx.
-              In a nutshell we at <a href="https://decodecx.com" style="font-weight:bold">Decodecx</a> are enhancing online reputation of hospitatility
-            industry using machine learning. </p>
-          </div>
-        </section>
-        <section class="section summary-section">
-          <h2 class="section-title"><i class="fa fa-star"></i>Experience</h2>
-          <div class="summary">
-            <p>
-              <i class="glyphicon glyphicon-pushpin"></i>
-              <span class="project-tagline"><strong>SENIOR FULLSTACK DEVELOPER</strong></span> <br>
-              <b>
-              <a href="http://www.delightree.com/">@ DELIGHTREE , BANGALORE</a>
-              </b>
-              <br>
-              <span class="project-tagline">Working as a Senior Fullstack developer</span> <br>
-              <span class="project-tagline">Feb 2018- June 2019 </span>
-              <ul>
-                <li>Backend development</li>
-                
-              </ul>
-            </p>
-            <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
-            <p>
-              <i class="glyphicon glyphicon-pushpin"></i>
-              <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
-              <b>
-              <a href="http://www.survaider.com/">@ Survaider , BANGALORE</a>
-              </b>
-              <br>
-              <span class="project-tagline">Working As a Fullstack developer</span> <br>
-              <span class="project-tagline">Feb 2018- June 2019 </span>
-              <ul>
-                <li>Scrapers Integreation</li>
-                <li>Api Integration and Implemetation</li>
-                <li>On demand client Projects</li>
-              </ul>
-            </p>
-            <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
-            <p>
-              <i class="glyphicon glyphicon-pushpin"></i>
-              <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
-              <b>
-              <a href="http://www.signzy.com/">@ Signzy Technologies Pvt Ltd , BANGALORE</a>
-              </b>
-              <br>
-              <span class="project-tagline">Working As a Fullstack developer</span> <br>
-              <span class="project-tagline">June 2017- Jan 2018 </span>
-              <ul>
-                <li>Onboarding Projects Developement</li>
-                <li>Mobile app development for video onboarding</li>
-                <li>Api Integration and Implemetation</li>
-                <li>Feature Enhancement</li>
-              </ul>
-            </p>
-            <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
-            <p>
-              <i class="glyphicon glyphicon-pushpin"></i>
-              <span class="project-tagline"><strong>INTERN </strong> </span> <br>
-              <b>
-              <a href="http://www.apnastudy.com/">@ Apnastudy Technology , KOLKATA</a>
-              </b>
-              <br>
-              <span class="project-tagline">Working as Backend Nodejs Developer</span> <br>
-              <span class="project-tagline">Aug 2016 - June 2017</span>
-              <ul>
-                <li>Enhancement of existing Apis</li>
-                <li>Payment System development</li>
-                <li>Blog Development</li>
-              </ul>
-            </p>
-            <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
-          </div>
-        </section>
-        <section class="section projects-section">
-          <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-          <div class="item" ng-repeat="i in projs">
-            <span class="project-title">
-              <i class="glyphicon glyphicon-menu-right"></i>
-              <a href="{{i.url}}" target="_blank"><b>{{i.name}}</b></a>
-            </span>
-            <a href="{{i.url}}" target="_blank" style="text-decoration:none" ng-if="i.url.length > 0">
-              <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
-              View
-              </button>
-            </a>
-            <a href="{{i.github}}" target="_blank" class="pull-right" ng-if="i.github">
-              <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="">
-              <i class="fa fa-github"></i>
-              </button>
-            </a>
-            <br>
-            <span class="project-tagline">
-              <span class="project-tagline">{{i.description}}</span>
-              <br>
-            </span>
-            <hr>
-          </div>
-        </section>
+      <!--//education-container-->
+      <!-- Languages -->
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled interests-list">
+          <li><i class="glyphicon glyphicon-triangle-right"></i> English <span class="lang-desc"></span></li>
+          <li><i class="glyphicon glyphicon-triangle-right"></i> Bengali <span class="lang-desc">(native)</span></li>
+          <li><i class="glyphicon glyphicon-triangle-right"></i> Hindi <span class="lang-desc"></span></li>
+        </ul>
+      </div>
+      <!-- Interests -->
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Interests</h2>
+        <ul class="list-unstyled interests-list">
+          <li> <i class="glyphicon glyphicon-triangle-right"></i>Coding</li>
+          <li> <i class="glyphicon glyphicon-triangle-right"></i>Music</li>
+        </ul>
       </div>
     </div>
-  </body>
+    <!-- main content -->
+    <div class="main-wrapper">
+      <!-- about you -->
+      <section class="section summary-section">
+        <h2 class="section-title"><i class="fa fa-user"></i>About</h2>
+        <div class="summary">
+          <ul>
+            <li>
+              Founder <strong><a href="https://decodecx.com" target="_blank">@Decodecx</a></strong>
+            </li>
+            <li>
+              Senior Fullstack Developer <strong><a href="https://delightree.com"
+                  target="_blank">@Delightree</a></strong>
+            </li>
+            <li>
+              Please do visit <strong><a href="https://zaream.xyz/latest" target="_blank">Zaream</a></strong>
+            </li>
+            <!-- A FULLSTACK engineer with interest in ML and NLP. Currently Working on building the platform at decodecx.
+            In a nutshell we at <a href="https://decodecx.com" style="font-weight:bold">Decodecx</a> are enhancing
+            online reputation of hospitatility
+            industry using machine learning. -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="section summary-section">
+        <h2 class="section-title"><i class="fa fa-star"></i>Experience</h2>
+        <div class="summary">
+          <p>
+            <i class="glyphicon glyphicon-pushpin"></i>
+            <span class="project-tagline"><strong>SENIOR FULLSTACK DEVELOPER</strong></span> <br>
+            <b>
+              <a href="http://www.delightree.com/"> @DELIGHTREE , BANGALORE</a>
+            </b>
+            <br>
+            <span class="project-tagline">Working as a Senior Fullstack developer</span> <br>
+            <span class="project-tagline">July 2020 - Current </span>
+          <ul>
+            <li>Building scalable backend using Apollo Graphql</li>
+            <li>Building internal operations platforms</li>
+          </ul>
+          </p>
+          <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+          <p>
+            <i class="glyphicon glyphicon-pushpin"></i>
+            <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
+            <b>
+              <a href="http://www.survaider.com/">@ Survaider , BANGALORE</a>
+            </b>
+            <br>
+            <span class="project-tagline">Working As a Fullstack developer</span> <br>
+            <span class="project-tagline">Feb 2018- June 2019 </span>
+          <ul>
+            <li>Scrapers Integreation</li>
+            <li>Api Integration and Implemetation</li>
+            <li>On demand client Projects</li>
+            <li>Build client management panel for the company</li>
+          </ul>
+          </p>
+          <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+          <p>
+            <i class="glyphicon glyphicon-pushpin"></i>
+            <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
+            <b>
+              <a href="http://www.signzy.com/">@ Signzy Technologies Pvt Ltd , BANGALORE</a>
+            </b>
+            <br>
+            <span class="project-tagline">Working As a Fullstack developer</span> <br>
+            <span class="project-tagline">June 2017- Jan 2018 </span>
+          <ul>
+            <li>Onboarding Projects Developement</li>
+            <li>Mobile app development for video onboarding</li>
+            <li>Api Integration and Implemetation</li>
+            <li>Feature Enhancement</li>
+          </ul>
+          </p>
+          <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+          <p>
+            <i class="glyphicon glyphicon-pushpin"></i>
+            <span class="project-tagline"><strong>INTERN </strong> </span> <br>
+            <b>
+              <a href="http://www.apnastudy.com/">@ Apnastudy Technology , KOLKATA</a>
+            </b>
+            <br>
+            <span class="project-tagline">Working as Backend Nodejs Developer</span> <br>
+            <span class="project-tagline">Aug 2016 - June 2017</span>
+          <ul>
+            <li>Enhancement of existing Apis</li>
+            <li>Payment System development</li>
+            <li>Blog Development</li>
+          </ul>
+          </p>
+          <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+        </div>
+      </section>
+      <section class="section projects-section">
+        <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+        <div class="item" ng-repeat="i in projs">
+          <span class="project-title">
+            <i class="glyphicon glyphicon-menu-right"></i>
+            <a href="{{i.url}}" target="_blank"><b>{{i.name}}</b></a>
+          </span>
+          <a href="{{i.url}}" target="_blank" style="text-decoration:none" ng-if="i.url.length > 0">
+            <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
+              View
+            </button>
+          </a>
+          <a href="{{i.github}}" target="_blank" class="pull-right" ng-if="i.github">
+            <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="">
+              <i class="fa fa-github"></i>
+            </button>
+          </a>
+          <br>
+          <span class="project-tagline">
+            <span class="project-tagline">{{i.description}}</span>
+            <br>
+          </span>
+          <hr>
+        </div>
+      </section>
+      <!-- <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" /> -->
+      <section class="section projects-section">
+        <h2 class="section-title"><i class="fa fa-asterisk"></i>About me</h2>
+        <p>
+          Currnetly working as a Fullstack Developer <b>
+            <a href="http://www.delightree.com/" target="_blank"> @DELIGHTREE</a></b> and building customer experience
+          platform at
+          <b>@decodecx</b>.
+        </p>
+        <p>
+          <strong><a href="https://decodecx.com" target="_blank">@Decodecx</a></strong> is a online reputation
+          management platform for Businesses. It aggreagate reviews for a
+          business and provide them with <b>actionable insights</b> on various aspects thereby helping them improve
+          their
+          online presence. Currently we have more than 60 business outlets using the platform for improving their user
+          experience.
+        </p>
+        <p>
+          Also do checkout <strong><a href="https://zaream.xyz/latest" target="_blank">Zaream</a></strong> . Its an
+          online news platform which aggregates news from more than 10000
+          sources daily and creates news cluster using machine learning algorithm, thereby providing a wide
+          <b>perspective</b>
+          of the same news across biases and geography
+        </p>
+      </section>
+    </div>
+  </div>
+</body>
+
 </html>

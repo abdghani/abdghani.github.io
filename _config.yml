@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+# This site is a static, self-contained HTML/CSS/JS portfolio.
+# No Jekyll theme is used — index.html is served directly by GitHub Pages.
+title: Abdullah Ghani — Founder & Full-Stack Engineer
+description: Founder and senior full-stack engineer building data-heavy products.

@@ -116,7 +116,7 @@
 
       <!-- Delightree AI Analyst — featured -->
       <article class="ai-feature reveal">
-        <span class="tag">Delightree · LLM agents · Tool use</span>
+        <span class="tag">Delightree · LLM agents · LangChain · LangGraph</span>
         <h3>AI Analyst — an agent franchise owners can trust</h3>
         <p class="ai-lede">
           Franchise owners ask questions in plain English, like <em>"Which locations are falling behind on training, and why?"</em>,
@@ -136,6 +136,7 @@
 
         <ul class="ai-points">
           <li><strong>Two-stage design:</strong> the router narrows ~100 tools down to the few that matter, which keeps the agent fast and focused.</li>
+          <li><strong>Built on the LangChain ecosystem:</strong> the router → ReAct → answer flow is orchestrated as a LangGraph graph, with every data source exposed as a typed LangChain tool.</li>
           <li><strong>Numbers you can trust:</strong> results are checked again and rebuilt from the same metric catalog the dashboards use, so chat and dashboards always agree.</li>
           <li><strong>Structured output:</strong> answers follow a schema, so the frontend can show tables, charts and action buttons instead of plain text.</li>
           <li><strong>From answer to action:</strong> answers come with one-click actions, so owners can act on what they find without leaving the chat.</li>
@@ -175,7 +176,7 @@
 
       <!-- Brifly -->
       <article class="ai-feature reveal">
-        <span class="tag">RAG · Vector search · Background AI workers</span>
+        <span class="tag">RAG · LangChain · Vector search · Background AI workers</span>
         <h3>Brifly — give your meetings a memory</h3>
         <p class="ai-lede">
           Meetings get recorded in Read.ai, Fireflies, Zoom and Microsoft Teams, and follow-ups happen over email, so nothing
@@ -195,6 +196,7 @@
         </div>
 
         <ul class="ai-points">
+          <li><strong>LangChain RAG pipeline:</strong> transcripts and emails are chunked, embedded and retrieved through LangChain, with Qdrant as the vector store and Claude generating the cited answers.</li>
           <li><strong>Two RAG modes:</strong> scoped retrieval for chatting with one meeting, and global retrieval across all meetings with per-source filters. Conversation history is saved and can be copied, regenerated or downloaded.</li>
           <li><strong>One schema for every source:</strong> four meeting providers with different auth flows and formats are normalised into one model. Split "Conference Room – Speaker 1/2" tracks are merged into one speaker timeline.</li>
           <li><strong>Action items to tasks:</strong> Claude adds priority, assignee and deadline to existing action items, or extracts them from raw transcripts. Tasks are grouped as overdue, today, this week or later.</li>
@@ -238,7 +240,7 @@
             <div class="tl-top"><span class="tl-role">Backend Lead</span> <span class="tl-company">· Delightree</span> <span class="tl-badge">Current</span></div>
             <p class="tl-desc">Franchise management platform. I lead backend development, with a focus on AI-powered features.</p>
             <ul class="tl-points">
-              <li>Built the <strong>AI Analyst</strong>, a two-stage LLM agent. A router picks from ~100 tools across 14 business domains, a ReAct agent gathers live data, and a second model writes a schema-validated answer.</li>
+              <li>Built the <strong>AI Analyst</strong>, a two-stage LLM agent on LangChain and LangGraph. A router picks from ~100 tools across 14 business domains, a ReAct agent gathers live data, and a second model writes a schema-validated answer.</li>
               <li>Made its numbers trustworthy: every figure is computed in code, then checked again and rebuilt from the same <strong>metric catalog</strong> the dashboards use, so chat and dashboards always agree.</li>
               <li>Built <strong>AI Search</strong>, a vector-based RAG engine that answers plain-English questions across franchisors' whole SOP library and cites its sources.</li>
             </ul>
@@ -385,7 +387,7 @@
         </div>
         <div class="stack-col reveal">
           <h4>AI &amp; LLM</h4>
-          <ul><li>LLM agents · tool use · ReAct</li><li>RAG · embeddings · vector DBs</li><li>Anthropic Claude · OpenAI</li><li>Prompt engineering</li><li>Schema-validated output</li></ul>
+          <ul><li>LangChain · LangGraph</li><li>LLM agents · tool use · ReAct</li><li>RAG · embeddings · vector DBs</li><li>Anthropic Claude · OpenAI</li><li>Prompt engineering</li><li>Schema-validated output</li></ul>
         </div>
         <div class="stack-col reveal">
           <h4>Data &amp; ML</h4>

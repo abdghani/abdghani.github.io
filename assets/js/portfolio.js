@@ -80,29 +80,6 @@
   );
   sections.forEach((s) => spy.observe(s));
 
-  /* ---- project filtering ---- */
-  const filters = document.querySelectorAll(".filter");
-  const cards = document.querySelectorAll(".grid .card");
-  filters.forEach((btn) =>
-    btn.addEventListener("click", () => {
-      filters.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      const cat = btn.dataset.filter;
-      cards.forEach((card) => {
-        const show = cat === "all" || card.dataset.cat === cat;
-        card.style.display = show ? "" : "none";
-      });
-    })
-  );
-
-  /* ---- venture pointer glow ---- */
-  document.querySelectorAll(".venture").forEach((v) => {
-    v.addEventListener("mousemove", (e) => {
-      const r = v.getBoundingClientRect();
-      v.style.setProperty("--mx", ((e.clientX - r.left) / r.width) * 100 + "%");
-    });
-  });
-
   /* ---- footer year ---- */
   const yr = document.getElementById("year");
   if (yr) yr.textContent = new Date().getFullYear();

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Abdullah Ghani - Backend Lead (AI) - Resume</title>
+<!--
+  ATS-friendly one-page resume. Rebuild the PDF with:  ./resume/build.sh
+  Kept on purpose: single reading column, real selectable text, standard
+  section headings, no tables/images/icons, contact details in the body.
+-->
+<style>
+  @page { size: A4; margin: 9mm 12mm 8mm; }
+  * { box-sizing: border-box; }
+  body { font-family: Helvetica, Arial, sans-serif; font-size: 9.2pt; line-height: 1.3; color: #1b1b1b; margin: 0; }
+  a { color: inherit; text-decoration: none; }
+
+  header { text-align: center; margin-bottom: 7px; }
+  h1 { font-size: 21pt; letter-spacing: 0.6px; margin: 0; color: #111; }
+  .headline { font-size: 10.4pt; color: #1f3fbf; font-weight: bold; margin: 2px 0 3px; }
+  .contact { font-size: 8.8pt; color: #444; margin: 0; }
+
+  h2 {
+    font-size: 9.6pt; text-transform: uppercase; letter-spacing: 1.2px; color: #1f3fbf;
+    border-bottom: 1.2px solid #1f3fbf; padding-bottom: 1px; margin: 7px 0 3px;
+  }
+  p { margin: 0 0 3px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; margin-top: 4px; }
+  .row h3 { font-size: 9.9pt; margin: 0; }
+  .row h3 span { font-weight: normal; color: #444; }
+  .date { font-size: 8.8pt; color: #444; white-space: nowrap; padding-left: 10px; }
+  ul { margin: 1px 0 0; padding-left: 14px; }
+  li { margin: 0 0 1.5px; }
+  li::marker { color: #1f3fbf; }
+  .skills p { margin: 0 0 1.5px; }
+  b { color: #111; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ABDULLAH GHANI</h1>
+  <p class="headline">Backend Lead | Senior Backend Engineer | AI &amp; LLM Systems</p>
+  <p class="contact">Bengaluru, India | +91 95479 98800 | abdullah.ghani3@gmail.com | linkedin.com/in/abdullah-ghani-76a7b0115 | abdghani.github.io</p>
+</header>
+
+<h2>Summary</h2>
+<p>Backend Lead with 9+ years of experience building scalable APIs, job pipelines and cloud infrastructure, and now production AI. Built an LLM agent with tool calling and a RAG search engine used across franchise networks at Delightree. Strong in Node.js, GraphQL, Redis, AWS, vector search and LLM integration. Co-founded a SaaS startup that reached 60+ paid clients within 8 months.</p>
+
+<h2>Skills</h2>
+<div class="skills">
+  <p><b>AI / LLM:</b> LLM agents, tool calling, ReAct, RAG, embeddings, vector search (Qdrant), structured output, prompt engineering, Anthropic Claude, OpenAI</p>
+  <p><b>Backend:</b> Node.js, Express, Apollo GraphQL, REST, TypeScript, JavaScript, Python, OAuth 2.0, JWT, system design</p>
+  <p><b>Data &amp; Infra:</b> MongoDB, Redis, Bull/BullMQ, AWS (ECS, Elastic Beanstalk, CloudFormation, S3, CloudFront), Docker, CI/CD</p>
+</div>
+
+<h2>Experience</h2>
+
+<div class="row"><h3>Backend Lead <span>| Delightree</span></h3><span class="date">Aug 2025 - Present</span></div>
+<ul>
+  <li>Built an <b>AI Analyst</b> for franchise owners: a two-stage <b>LLM agent</b> where a router picks from ~100 tools across 14 business domains, a ReAct agent gathers live data, and a second model writes a schema-validated answer with tables, charts and actions.</li>
+  <li>Made the AI's answers trustworthy: every figure is computed in code, never by the model, and checked against the same metric catalog the dashboards use.</li>
+  <li>Built <b>AI Search</b>, a permission-aware <b>RAG engine</b> over SOPs, manuals and training content, with cited answers, automatic re-indexing and analytics that surface knowledge gaps.</li>
+</ul>
+
+<div class="row"><h3>Senior Backend Engineer <span>| Delightree</span></h3><span class="date">Aug 2021 - Aug 2025</span></div>
+<ul>
+  <li>Designed the backend architecture of the franchise management platform on <b>Apollo GraphQL</b>, and built its core modules: SOPs, Forms, Audits, Training and Notifications.</li>
+  <li>Built background job processing and caching with <b>Bull queues and Redis</b>, moving heavy work off the request path.</li>
+  <li>Deployed and managed <b>AWS</b> infrastructure (Elastic Beanstalk, ECS, CloudFormation, S3, CloudFront).</li>
+</ul>
+
+<div class="row"><h3>Senior Full-Stack Engineer <span>| Chain of Demand, Hong Kong</span></h3><span class="date">Sep 2022 - 2023</span></div>
+<ul>
+  <li>Built backend APIs for an ML-driven crypto analytics platform, and launched a signals service that sends real-time Telegram alerts.</li>
+</ul>
+
+<div class="row"><h3>Co-Founder <span>| DecodeCX</span></h3><span class="date">Jun 2019 - Jul 2021</span></div>
+<ul>
+  <li>Built a customer-experience SaaS platform from scratch, using NLP review analysis, and reached <b>60+ paid clients in 8 months</b>.</li>
+</ul>
+
+<div class="row"><h3>Full-Stack Developer <span>| Survaider</span></h3><span class="date">Jan 2018 - Jun 2019</span></div>
+<ul>
+  <li>Built and maintained 20 web scrapers and an analytics platform for ~800 B2B users. Built an internal operations tool that saved ~150 work hours a month.</li>
+</ul>
+
+<div class="row"><h3>Software Developer <span>| Signzy</span></h3><span class="date">Jun 2017 - Jan 2018</span></div>
+<ul>
+  <li>Built bank onboarding applications on in-house KYC APIs, and did OCR research and development.</li>
+</ul>
+
+<div class="row"><h3>Web Developer <span>| ApnaStudy Technologies</span></h3><span class="date">Aug 2016 - Jun 2017</span></div>
+<ul>
+  <li>Built the payments platform on the MEAN stack.</li>
+</ul>
+
+<h2>Projects</h2>
+
+<div class="row"><h3>Brifly <span>| AI Meeting Intelligence (brifly.hostatic.site)</span></h3><span class="date">Node.js, Qdrant, Claude</span></div>
+<ul>
+  <li>Built a RAG platform that unifies transcripts from Zoom, Teams, Read.ai and Fireflies, plus Gmail and Outlook. It offers semantic search and per-meeting chat that cites speaker and timestamp.</li>
+  <li>Built BullMQ workers for embeddings (OpenAI to Qdrant), Claude action-item extraction and scheduled digests.</li>
+</ul>
+
+<div class="row"><h3>DriftHost <span>| AI Website Builder &amp; Hosting (drifthost.site)</span></h3><span class="date">LLM codegen, CDN</span></div>
+<ul>
+  <li>Built a chat-to-website builder: the AI streams HTML/CSS/JS with checkpoints, and sites publish as versioned deployments on an edge CDN with one-click rollback and a deploy CLI.</li>
+</ul>
+
+<h2>Education</h2>
+<div class="row"><h3>Bachelor's Degree, Computer Science <span>| Netaji Subhash Engineering College</span></h3><span class="date">2013 - 2017</span></div>
+
+<h2>Certifications</h2>
+<p>Server-side Development with NodeJS | MongoDB for Node.js Developers (M101JS) | Introduction to MongoDB using the MEAN Stack (edX)</p>
+
+</body>
+</html>

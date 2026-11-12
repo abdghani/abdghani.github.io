@@ -4,53 +4,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdullah Ghani — Founder & Full-Stack Engineer</title>
+  <title>Abdullah Ghani — Senior Backend Engineer · AI Systems</title>
   <meta name="description"
-    content="Abdullah Ghani — founder and senior full-stack engineer. 8+ years building data-heavy products across fintech, NLP, and customer-experience platforms." />
+    content="Abdullah Ghani — senior backend engineer with 9+ years building scalable APIs and production AI systems: RAG pipelines, LLM workflows, vector search and NLP." />
   <meta name="author" content="Abdullah Ghani" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Abdullah Ghani — Founder & Full-Stack Engineer" />
+  <meta property="og:title" content="Abdullah Ghani — Senior Backend Engineer · AI Systems" />
   <meta property="og:description"
-    content="Founder & senior full-stack engineer building data-heavy products — ML news clustering, crypto quant signals, browser IDEs, and more." />
+    content="Senior backend engineer building scalable APIs and production AI systems — RAG, LLM workflows, vector search and NLP." />
   <meta property="og:url" content="https://abdghani.github.io/" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="https://abdghani.github.io/images/profile.jpeg" />
+  <meta name="twitter:card" content="summary" />
 
   <link rel="shortcut icon" href="favicon.ico" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/portfolio.css" />
-  <!-- Failsafe: if JS is disabled, show all reveal content (no hidden sections). -->
   <noscript>
     <style>.reveal { opacity: 1 !important; transform: none !important; }</style>
   </noscript>
 </head>
 
 <body>
-  <!-- ambient background -->
-  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
-  <div class="bg-grid" aria-hidden="true"></div>
-
   <!-- ===================== NAV ===================== -->
   <header class="nav">
     <div class="container nav-inner">
-      <a href="#top" class="brand"><span class="dot"></span> Abdullah Ghani</a>
+      <a href="#top" class="brand">Abdullah Ghani</a>
       <nav class="nav-links">
+        <a href="#ai">AI Work</a>
         <a href="#experience">Experience</a>
-        <a href="#work">Work</a>
-        <a href="#opensource">Open Source</a>
+        <a href="#projects">Projects</a>
         <a href="#stack">Stack</a>
-        <a href="#contact" class="nav-cta">Get in touch</a>
+        <a href="#contact">Contact</a>
+        <a href="Abdullah_Ghani_Resume.pdf" download class="nav-cta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 20h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Resume
+        </a>
       </nav>
       <button class="nav-toggle" aria-label="Toggle menu">
-        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round" />
         </svg>
       </button>
@@ -59,45 +58,167 @@
 
   <!-- ===================== HERO ===================== -->
   <section class="hero" id="top">
-    <div class="container">
-      <div class="hero-eyebrow reveal"><span class="pulse"></span> Founder · Backend Lead · Bengaluru</div>
-      <h1 class="reveal">Abdullah Ghani<span class="grad">.</span></h1>
-      <p class="hero-lead reveal">
-        I build data-heavy products end-to-end — from
-        <span class="grad" style="font-weight:600">ML news clustering</span> and crypto quant signals
-        to browser-based IDEs.
-      </p>
-      <p class="hero-sub reveal">
-        8+ years shipping production software across fintech, NLP, and customer-experience platforms.
-        I take products from zero to scale — backend, frontend, and the messy data in between —
-        and I've founded two of my own along the way.
-      </p>
-      <div class="hero-actions reveal">
-        <a href="#work" class="btn btn-primary">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          View selected work
-        </a>
-        <a href="#contact" class="btn btn-ghost">Let's talk</a>
-        <div class="icon-links">
-          <a href="https://github.com/abdghani" target="_blank" rel="noopener" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow reveal"><span class="pulse"></span> Backend Lead · AI Systems · Bengaluru</div>
+        <h1 class="reveal">Abdullah Ghani</h1>
+        <p class="hero-lead reveal">
+          I build the backend — and the <em>AI layer</em> on top of it.
+        </p>
+        <p class="hero-sub reveal">
+          9+ years designing scalable APIs, job queues and cloud infrastructure. I lead backend at
+          Delightree, where I built an AI Analyst agent that answers franchise owners' questions with
+          verified numbers, and a RAG search engine over their SOP libraries.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="Abdullah_Ghani_Resume.pdf" download class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 20h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download resume
           </a>
-          <a href="https://in.linkedin.com/in/abdullah-ghani-76a7b0115" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5V9h3v10zM6.5 7.7a1.8 1.8 0 110-3.5 1.8 1.8 0 010 3.5zM19 19h-3v-5.3c0-1.3-.5-2.1-1.6-2.1-.9 0-1.4.6-1.6 1.2-.1.2-.1.5-.1.8V19h-3V9h3v1.4c.4-.7 1.2-1.6 2.9-1.6 2.1 0 3.7 1.4 3.7 4.3V19z"/></svg>
-          </a>
-          <a href="mailto:abdullah.ghani3@gmail.com" aria-label="Email">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
+          <a href="#ai" class="btn btn-ghost">See AI work</a>
+          <div class="icon-links">
+            <a href="https://github.com/abdghani" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/abdullah-ghani-76a7b0115/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5V9h3v10zM6.5 7.7a1.8 1.8 0 110-3.5 1.8 1.8 0 010 3.5zM19 19h-3v-5.3c0-1.3-.5-2.1-1.6-2.1-.9 0-1.4.6-1.6 1.2-.1.2-.1.5-.1.8V19h-3V9h3v1.4c.4-.7 1.2-1.6 2.9-1.6 2.1 0 3.7 1.4 3.7 4.3V19z"/></svg>
+            </a>
+            <a href="mailto:abdullah.ghani3@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
         </div>
       </div>
 
-      <!-- metrics -->
+      <figure class="portrait reveal">
+        <img src="images/profile.jpeg" alt="Portrait of Abdullah Ghani" width="512" height="512" />
+      </figure>
+    </div>
+
+    <div class="container">
       <div class="metrics reveal">
-        <div class="metric"><div class="num" data-count="8" data-suffix="+">0</div><div class="label">Years building & shipping</div></div>
-        <div class="metric"><div class="num" data-count="2">0</div><div class="label">Ventures founded</div></div>
-        <div class="metric"><div class="num" data-count="10" data-suffix="K+">0</div><div class="label">News sources aggregated daily</div></div>
-        <div class="metric"><div class="num" data-count="60" data-suffix="+">0</div><div class="label">Businesses served on platform</div></div>
+        <div class="metric"><div class="num" data-count="9" data-suffix="+">0</div><div class="label">Years in backend engineering</div></div>
+        <div class="metric"><div class="num" data-count="100" data-prefix="~">0</div><div class="label">Tools behind my AI Analyst agent</div></div>
+        <div class="metric"><div class="num" data-count="14">0</div><div class="label">Business domains the agent covers</div></div>
+        <div class="metric"><div class="num" data-count="60" data-suffix="+">0</div><div class="label">Paid clients in 8 months at my startup</div></div>
       </div>
+    </div>
+  </section>
+
+  <!-- ===================== AI WORK ===================== -->
+  <section id="ai">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-index">01 — AI Work</span>
+        <h2 class="section-title">Production AI, built on solid backends</h2>
+        <p class="section-sub">I treat LLMs as one more unreliable dependency: ground them in your data, compute the numbers in code, scope them by permissions, and keep them off the request path. Here's what that looks like in practice.</p>
+      </div>
+
+      <!-- Delightree AI Analyst — featured -->
+      <article class="ai-feature reveal">
+        <span class="tag">Delightree · LLM agents · Tool use</span>
+        <h3>AI Analyst — an agent franchise owners can trust</h3>
+        <p class="ai-lede">
+          Franchise owners ask questions in plain English, like <em>"Which locations are falling behind on training, and why?"</em>,
+          and get verified answers in seconds, with tables, charts and one-click actions. The hard part isn't the chat.
+          It's making sure every number the agent shows is correct.
+        </p>
+
+        <div class="pipeline" aria-label="AI Analyst architecture">
+          <div class="pipe-step"><span class="pipe-k">Route</span><span class="pipe-v">An LLM router picks the right tools from ~100 across 14 business domains</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Gather</span><span class="pipe-v">A ReAct agent calls those tools against live platform data</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Compute</span><span class="pipe-v">Every figure is calculated in code from the shared metric catalog, never guessed by the model</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Answer</span><span class="pipe-v">A second model writes a schema-validated answer that is checked before it is shown</span></div>
+        </div>
+
+        <ul class="ai-points">
+          <li><strong>Two-stage design:</strong> the router narrows ~100 tools down to the few that matter, which keeps the agent fast and focused.</li>
+          <li><strong>Numbers you can trust:</strong> results are checked again and rebuilt from the same metric catalog the dashboards use, so chat and dashboards always agree.</li>
+          <li><strong>Structured output:</strong> answers follow a schema, so the frontend can show tables, charts and action buttons instead of plain text.</li>
+          <li><strong>From answer to action:</strong> answers come with one-click actions, so owners can act on what they find without leaving the chat.</li>
+        </ul>
+      </article>
+
+      <!-- Delightree AI Search -->
+      <article class="ai-feature reveal">
+        <span class="tag">Delightree · RAG · Permission-aware retrieval</span>
+        <h3>AI Search — answers from approved SOPs, not the open internet</h3>
+        <p class="ai-lede">
+          Franchise teams used to dig through binders, PDF libraries and group chats to answer everyday questions like
+          <em>"What's the refund process for a delivery order?"</em> or <em>"What's the closing temperature for the line?"</em>
+          AI Search is a vector-based RAG engine that answers those questions in plain English, on any device, and
+          shows the source SOP behind every answer so teams can check the original.
+        </p>
+
+        <div class="pipeline" aria-label="AI Search architecture">
+          <div class="pipe-step"><span class="pipe-k">Index</span><span class="pipe-v">SOPs, manuals, training modules, policies, checklists and audits are embedded into a vector index that updates automatically when content changes</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Scope</span><span class="pipe-v">Retrieval respects the network's permissions: franchisees only see their brand's content, and multi-brand operators control visibility per brand</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Answer</span><span class="pipe-v">The LLM answers only from the retrieved, approved content and returns the exact answer with its source reference</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Learn</span><span class="pipe-v">Thumbs-up/down feedback and search analytics reveal knowledge gaps and trending topics for HQ</span></div>
+        </div>
+
+        <ul class="ai-points">
+          <li><strong>Grounded by design:</strong> answers come only from content the franchisor has uploaded and approved, so every location gets the same current answer.</li>
+          <li><strong>Multi-tenant safe:</strong> retrieval is filtered by the same permission hierarchy as the rest of the platform, so brands never see each other's content.</li>
+          <li><strong>No separate pipeline:</strong> it works on content already in Delightree in any format, and edits to the knowledge base reach search automatically.</li>
+          <li><strong>Less load on HQ:</strong> locations get answers on their own around the clock, and new hires ramp up without waiting on a manager.</li>
+        </ul>
+        <div class="card-stack"><span>RAG</span><span>Embeddings</span><span>Vector search</span><span>Multi-tenant access control</span><span>Node.js</span><span>GraphQL</span></div>
+        <div class="card-links"><a href="https://www.delightree.com/platform/ai-search" target="_blank" rel="noopener">Product page ↗</a></div>
+      </article>
+
+      <!-- Brifly -->
+      <article class="ai-feature reveal">
+        <span class="tag">RAG · Vector search · Background AI workers</span>
+        <h3>Brifly — give your meetings a memory</h3>
+        <p class="ai-lede">
+          Meetings get recorded in Read.ai, Fireflies, Zoom and Microsoft Teams, and follow-ups happen over email, so nothing
+          can be searched in one place. Brifly pulls all of it into one private library and adds an AI layer: ask questions
+          across every meeting, chat with a single meeting, get weekly digests and turn action items into tasks. Every answer
+          cites the exact speaker and timestamp.
+        </p>
+
+        <div class="pipeline" aria-label="Brifly architecture">
+          <div class="pipe-step"><span class="pipe-k">Ingest</span><span class="pipe-v">Read.ai (OAuth 2.1), Fireflies (GraphQL), Zoom &amp; Teams (OAuth 2.0, VTT parsing), plus read-only Gmail &amp; Outlook</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Queue</span><span class="pipe-v">BullMQ + Redis workers: <code>embed</code>, <code>enhance-actions</code>, <code>digest</code></span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Index</span><span class="pipe-v">OpenAI <code>text-embedding-3-small</code> → Qdrant, with per-meeting and global collections</span></div>
+          <div class="pipe-arrow">→</div>
+          <div class="pipe-step"><span class="pipe-k">Answer</span><span class="pipe-v">Claude Haiku 4.5, grounded in retrieved transcript chunks and citing speaker + timestamp</span></div>
+        </div>
+
+        <ul class="ai-points">
+          <li><strong>Two RAG modes:</strong> scoped retrieval for chatting with one meeting, and global retrieval across all meetings with per-source filters. Conversation history is saved and can be copied, regenerated or downloaded.</li>
+          <li><strong>One schema for every source:</strong> four meeting providers with different auth flows and formats are normalised into one model. Split "Conference Room – Speaker 1/2" tracks are merged into one speaker timeline.</li>
+          <li><strong>Action items to tasks:</strong> Claude adds priority, assignee and deadline to existing action items, or extracts them from raw transcripts. Tasks are grouped as overdue, today, this week or later.</li>
+          <li><strong>Scheduled AI digests:</strong> weekly digests (Mondays at 8 AM in the user's timezone) and monthly ones cover key themes, decisions and the top action items, each linked back to its source meeting.</li>
+          <li><strong>Email intelligence:</strong> read-only Gmail and Outlook sync finds the key threads, action items and who's waiting on your reply.</li>
+          <li><strong>Built for production:</strong> sync runs sequentially with retry-with-backoff on 429s and concurrency-safe jobs, and LLM and embedding work stays off the request path. Auth uses email/password or Google OAuth, with accounts merged by email.</li>
+        </ul>
+        <div class="card-stack"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>BullMQ</span><span>Redis</span><span>Qdrant</span><span>Anthropic Claude</span><span>OpenAI Embeddings</span><span>React</span><span>Docker</span></div>
+        <div class="card-links"><a href="https://brifly.hostatic.site/" target="_blank" rel="noopener">Live app ↗</a></div>
+      </article>
+
+      <!-- DriftHost -->
+      <article class="ai-feature ai-feature-compact reveal">
+        <span class="tag">Generative AI · Hosting infra</span>
+        <h3>DriftHost — describe a website, watch it go live</h3>
+        <p class="ai-lede">
+          An AI website builder and static hosting in one product. You chat, and the AI streams real HTML, CSS and JS while the live
+          preview updates. You can click any element in the preview and say what to change, or edit the files directly. Every AI turn
+          is checkpointed and can be reverted. Publishing creates an immutable, versioned snapshot on <code>yourname.drifthost.site</code>,
+          served from an edge CDN, and rolling back takes one click. Developers can skip the chat and run <code>drifthost deploy</code>.
+        </p>
+        <div class="card-stack"><span>LLM codegen</span><span>Streaming</span><span>Checkpoints</span><span>Versioned deploys</span><span>Edge CDN</span><span>CLI</span></div>
+        <div class="card-links"><a href="https://drifthost.site/" target="_blank" rel="noopener">drifthost.site ↗</a></div>
+      </article>
     </div>
   </section>
 
@@ -105,210 +226,145 @@
   <section id="experience">
     <div class="container">
       <div class="section-head reveal">
-        <span class="section-index">01</span>
+        <span class="section-index">02 — Experience</span>
         <h2 class="section-title">Where I've shipped</h2>
-        <p class="section-sub">Founder and senior engineering roles across hospitality-tech, fintech, customer-experience, and identity — building backends and products that scale.</p>
+        <p class="section-sub">Backend leadership and senior engineering across franchise-tech, fintech, customer-experience analytics and identity verification. Bachelor's in Computer Science, Netaji Subhash Engineering College (2017).</p>
       </div>
 
       <div class="timeline">
-        <div class="tl-item current reveal">
-          <div class="tl-top">
-            <div><span class="tl-role">Backend Lead</span> · <span class="tl-company">Delightree</span> <span class="tl-badge">Current</span></div>
-            <div class="tl-date">Aug 2021 — Present · 5 yrs</div>
-          </div>
-          <p class="tl-desc">Employee training & operations platform for hotels and restaurants (Bengaluru). Promoted to Backend Lead in 2025 after four years as Senior Full-Stack Engineer.</p>
-          <ul class="tl-points">
-            <li>Design and build scalable <strong>backend services on Apollo GraphQL</strong> powering the core platform.</li>
-            <li>Built the <strong>internal operations platform</strong> in React for efficient client onboarding and management.</li>
-            <li>Lead backend architecture and API development across the product.</li>
-          </ul>
-        </div>
-
-        <div class="tl-item founder reveal">
-          <div class="tl-top">
-            <div><span class="tl-role">Founder</span> · <span class="tl-company">DecodeCX</span> <span class="tl-badge founder-badge">Founder</span></div>
-            <div class="tl-date">2019 — 2022</div>
-          </div>
-          <p class="tl-desc">Founded and built a customer-experience & online-reputation platform for local businesses (from strategy to code).</p>
-          <ul class="tl-points">
-            <li>Aggregated customer reviews from across the web and applied <strong>NLP</strong> to turn them into actionable, aspect-level insights.</li>
-            <li>Grew adoption to <strong>60+ business outlets</strong> using the platform to improve their online presence.</li>
-          </ul>
-        </div>
-
         <div class="tl-item reveal">
-          <div class="tl-top">
-            <div><span class="tl-role">Senior Full-Stack Engineer</span> · <span class="tl-company">Chain of Demand</span> <span class="tl-badge">Hong Kong</span></div>
-            <div class="tl-date">Sep 2022 — 2023</div>
+          <div class="tl-date">Aug 2025 — Present</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Backend Lead</span> <span class="tl-company">· Delightree</span> <span class="tl-badge">Current</span></div>
+            <p class="tl-desc">Franchise management platform. I lead backend development, with a focus on AI-powered features.</p>
+            <ul class="tl-points">
+              <li>Built the <strong>AI Analyst</strong>, a two-stage LLM agent. A router picks from ~100 tools across 14 business domains, a ReAct agent gathers live data, and a second model writes a schema-validated answer.</li>
+              <li>Made its numbers trustworthy: every figure is computed in code, then checked again and rebuilt from the same <strong>metric catalog</strong> the dashboards use, so chat and dashboards always agree.</li>
+              <li>Built <strong>AI Search</strong>, a vector-based RAG engine that answers plain-English questions across franchisors' whole SOP library and cites its sources.</li>
+            </ul>
           </div>
-          <p class="tl-desc">Crypto investment platform with professional-grade quantitative analytics powered by machine learning.</p>
-          <ul class="tl-points">
-            <li>Designed and built <strong>backend APIs</strong> for core investment services.</li>
-            <li>Launched a <strong>signals platform</strong> surfacing top-performing strategies and notifying users in real time via Telegram.</li>
-          </ul>
         </div>
-
         <div class="tl-item reveal">
-          <div class="tl-top">
-            <div><span class="tl-role">Full-Stack Engineer</span> · <span class="tl-company">Survaider</span></div>
-            <div class="tl-date">Feb 2018 — Jun 2019</div>
+          <div class="tl-date">Aug 2021 — Aug 2025</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Senior Backend Engineer</span> <span class="tl-company">· Delightree</span></div>
+            <ul class="tl-points">
+              <li>Designed the backend architecture of the franchise platform on <strong>Apollo GraphQL</strong>, giving franchisors and franchisees one scalable API layer.</li>
+              <li>Built the core modules franchise teams use every day across locations: SOPs, Forms, Audits, Training and Notifications.</li>
+              <li>Built background job processing and caching with <strong>Bull queues and Redis</strong>, moving heavy work off the request path.</li>
+              <li>Deployed and ran the <strong>AWS</strong> infrastructure: Elastic Beanstalk, ECS, CloudFormation, S3 and CloudFront.</li>
+            </ul>
           </div>
-          <p class="tl-desc">Customer-experience & feedback analytics platform (Bengaluru).</p>
-          <ul class="tl-points">
-            <li>Built data <strong>scrapers and integrations</strong> in Python to feed the analytics pipeline.</li>
-            <li>Delivered on-demand client projects and a <strong>client management panel</strong> for the company.</li>
-          </ul>
         </div>
-
         <div class="tl-item reveal">
-          <div class="tl-top">
-            <div><span class="tl-role">Full-Stack Engineer</span> · <span class="tl-company">Signzy Technologies</span></div>
-            <div class="tl-date">Jun 2017 — Jan 2018</div>
+          <div class="tl-date">Sep 2022 — 2023</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Senior Full-Stack Engineer</span> <span class="tl-company">· Chain of Demand, Hong Kong</span></div>
+            <p class="tl-desc">Crypto investment platform with machine-learning-driven quantitative analytics.</p>
+            <ul class="tl-points">
+              <li>Designed and built the <strong>backend APIs</strong> behind the core investment services.</li>
+              <li>Launched a <strong>signals platform</strong> that surfaces the best-performing ML strategies and alerts users in real time via Telegram.</li>
+            </ul>
           </div>
-          <p class="tl-desc">Digital onboarding & identity-verification products (Bengaluru).</p>
-          <ul class="tl-points">
-            <li>Developed onboarding products on the <strong>MEAN stack</strong>.</li>
-            <li>Built a <strong>mobile app for video onboarding</strong> plus API integrations and feature enhancements.</li>
-          </ul>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date">Jun 2019 — Jul 2021</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Co-Founder</span> <span class="tl-company">· DecodeCX</span></div>
+            <p class="tl-desc">Customer-experience and online-reputation platform for local businesses.</p>
+            <ul class="tl-points">
+              <li>Designed the product and built the platform from scratch, from MVP to production.</li>
+              <li>Built review-aggregation pipelines and <strong>aspect-level NLP</strong> that turn unstructured customer feedback into insights.</li>
+              <li>Reached <strong>60+ paid clients within 8 months</strong>.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date">Jan 2018 — Jun 2019</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Full-Stack Developer</span> <span class="tl-company">· Survaider</span></div>
+            <p class="tl-desc">Customer-experience and feedback-analytics platform.</p>
+            <ul class="tl-points">
+              <li>Built and maintained <strong>20 web scrapers</strong> feeding the analytics pipeline.</li>
+              <li>Built an internal Operations Platform that saved the team <strong>~150 work hours a month</strong>.</li>
+              <li>Built the end-user analytics platform used by <strong>~800 B2B users</strong>.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date">Jun 2017 — Jan 2018</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Software Developer</span> <span class="tl-company">· Signzy</span></div>
+            <p class="tl-desc">Digital onboarding and identity verification for banks.</p>
+            <ul class="tl-points">
+              <li>Built onboarding applications for major Indian banks on in-house <strong>KYC APIs</strong>.</li>
+              <li>Did research and development on <strong>OCR</strong> for the company.</li>
+              <li>Maintained in-house backend APIs on Node.js.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date">Aug 2016 — Jun 2017</div>
+          <div class="tl-body">
+            <div class="tl-top"><span class="tl-role">Web Developer</span> <span class="tl-company">· ApnaStudy Technologies, Kolkata</span></div>
+            <ul class="tl-points">
+              <li>Built the payments platform for the existing user base.</li>
+              <li>Fixed bugs and maintained APIs built on the MEAN stack.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== WORK / PROJECTS ===================== -->
-  <section id="work">
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects">
     <div class="container">
       <div class="section-head reveal">
-        <span class="section-index">02</span>
-        <h2 class="section-title">Selected work</h2>
-        <p class="section-sub">A curated set of products I've built and founded — spanning AI website building, construction ops, mobility, customer-experience intelligence, and news.</p>
+        <span class="section-index">03 — Projects</span>
+        <h2 class="section-title">Other products I've built</h2>
+        <p class="section-sub">Full-stack platforms in production: construction ops, mobility and services.</p>
       </div>
 
       <div class="grid">
-        <!-- Hostatic -->
-        <article class="card reveal" data-cat="platform">
-          <div class="card-media"><span class="card-cat">AI · Platform</span><img src="images/hostatic.png" alt="Hostatic — AI website builder and hosting" loading="lazy" /></div>
-          <div class="card-body">
-            <h3>Hostatic</h3>
-            <p><strong>Describe a website. Watch it go live.</strong> An AI website builder fused with hosting — describe a site in chat, watch it generate the HTML/CSS/JS with live preview and checkpoint rollbacks, then deploy to a real subdomain in one click. Self-hostable, with a CLI for developers.</p>
-            <div class="card-stack"><span>AI / LLM</span><span>Full-stack</span><span>Deploy infra</span><span>Self-hosted</span></div>
-            <div class="card-links"><a href="https://hostatic.site/" target="_blank" rel="noopener">Live ↗</a></div>
-          </div>
-        </article>
-
-        <!-- DecodeCX (founded) -->
-        <article class="card reveal" data-cat="platform">
-          <div class="card-media"><span class="card-cat">Platform · Founder</span><div class="media-fill" style="background:linear-gradient(135deg,#7c5cff,#22d3ee)"><span class="media-glyph">DecodeCX</span></div></div>
-          <div class="card-body">
-            <h3>DecodeCX</h3>
-            <p><strong>The idea:</strong> give every local business one place to understand its customer experience. DecodeCX aggregates reviews from across the web and applies NLP to turn scattered feedback into <strong>actionable, aspect-level insights</strong> — what's driving reputation, what's hurting it, and where to act. Grew to 60+ outlets.</p>
-            <div class="card-stack"><span>Node.js</span><span>MongoDB</span><span>NLP</span><span>Data pipelines</span></div>
-          </div>
-        </article>
-
-        <!-- Zaream -->
-        <article class="card reveal" data-cat="data">
-          <div class="card-media"><span class="card-cat">Data / ML · Founder</span><div class="media-fill" style="background:linear-gradient(135deg,#4f7cff,#22d3ee)"><span class="media-glyph">Zaream</span></div></div>
-          <div class="card-body">
-            <h3>Zaream</h3>
-            <p><strong>News intelligence — one story, every perspective.</strong> Aggregated <strong>10,000+ sources daily</strong> and used an ML clustering algorithm to group coverage of the same event, letting readers see it across biases and geographies instead of a single feed.</p>
-            <div class="card-stack"><span>Python</span><span>Web scraping</span><span>ML clustering</span><span>NLP</span></div>
-          </div>
-        </article>
-
-        <!-- Crewd -->
-        <article class="card reveal" data-cat="platform">
-          <div class="card-media"><span class="card-cat">Platform</span><img src="images/crewd.png" alt="Crewd construction management platform" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="images/crewd.png" alt="Crewd construction management platform" loading="lazy" /></div>
           <div class="card-body">
             <h3>Crewd</h3>
-            <p><strong>The whole build, one system.</strong> An all-in-one construction-management platform for residential builders — leads, jobs, schedules, budgets, selections, change orders, invoices and daily logs in one place, keeping the office and jobsite in sync. Enter data once; it flows downstream.</p>
-            <div class="card-stack"><span>Full-stack</span><span>GraphQL</span><span>Real-time</span></div>
-            <div class="card-links"><a href="https://crewd.site/" target="_blank" rel="noopener">Live ↗</a></div>
+            <p>All-in-one construction management for residential builders. Leads, jobs, schedules, budgets, change orders, invoices and daily logs live in one system, so data entered once flows to every later step.</p>
+            <div class="card-stack"><span>GraphQL</span><span>TypeScript</span><span>Real-time</span></div>
+            <div class="card-links"><a href="https://crewd.site/" target="_blank" rel="noopener">crewd.site ↗</a></div>
           </div>
         </article>
 
-        <!-- My Lease -->
-        <article class="card reveal" data-cat="platform">
-          <div class="card-media"><span class="card-cat">Platform</span><img src="images/mylease.png" alt="My Lease car leasing & fleet management platform" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="images/mylease.png" alt="My Lease car leasing and fleet management platform" loading="lazy" /></div>
           <div class="card-body">
             <h3>My Lease</h3>
-            <p>A car-leasing & fleet-management platform for corporates and individuals — "the solution for mobility needs." Browse, lease, and manage vehicles and fleets end-to-end.</p>
-            <div class="card-stack"><span>Web platform</span><span>Leasing</span><span>Fleet ops</span></div>
-            <div class="card-links"><a href="https://mylease.co.in/" target="_blank" rel="noopener">Live ↗</a></div>
+            <p>Car leasing and fleet management for companies and individuals. Customers browse, lease and manage vehicles and fleets from start to finish.</p>
+            <div class="card-stack"><span>Node.js</span><span>Express</span><span>Fleet ops</span></div>
+            <div class="card-links"><a href="https://mylease.co.in/" target="_blank" rel="noopener">mylease.co.in ↗</a></div>
           </div>
         </article>
 
-        <!-- Happy Dogs -->
-        <article class="card reveal" data-cat="platform">
-          <div class="card-media"><span class="card-cat">Platform · Client</span><img src="images/happydogs.png" alt="Happy Dogs dog-care platform" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="images/happydogs.png" alt="Happy Dogs dog-care platform" loading="lazy" /></div>
           <div class="card-body">
             <h3>Happy Dogs</h3>
-            <p>A web platform for a dog-care business — services, bookings, customer onboarding and scheduling, wrapped in a friendly brand experience.</p>
-            <div class="card-stack"><span>Web platform</span><span>Onboarding</span><span>Booking</span></div>
-            <div class="card-links"><a href="http://happydogs.in/" target="_blank" rel="noopener">Live ↗</a></div>
+            <p>A booking backend and web platform for a dog-care business, covering services, bookings, customer onboarding and scheduling.</p>
+            <div class="card-stack"><span>Node.js</span><span>Booking</span><span>Onboarding</span></div>
+            <div class="card-links"><a href="http://happydogs.in/" target="_blank" rel="noopener">happydogs.in ↗</a></div>
           </div>
         </article>
       </div>
-    </div>
-  </section>
 
-  <!-- ===================== OPEN SOURCE ===================== -->
-  <section id="opensource">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-index">03</span>
-        <h2 class="section-title">Open source & building blocks</h2>
-        <p class="section-sub">Boilerplates and libraries I've published — the foundations I reuse to ship faster.</p>
-      </div>
-
-      <div class="oss-grid">
-        <a class="oss reveal" href="https://github.com/abdghani/apollo-graphql-compose-mongoose" target="_blank" rel="noopener">
-          <div class="oss-top">
-            <span class="oss-name"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>apollo-graphql-compose-mongoose</span>
-            <span class="oss-star"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17.8 5.9 20.4l1.5-6.8L2.2 9l6.9-.7L12 2z"/></svg>5</span>
-          </div>
-          <p>A production-ready boilerplate pairing graphql-compose-mongoose with an Apollo Express server. Wire up a typed GraphQL API over MongoDB in minutes.</p>
-          <span class="oss-lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · MIT</span>
-        </a>
-
-        <a class="oss reveal" href="https://github.com/abdghani/express-boilerplate" target="_blank" rel="noopener">
-          <div class="oss-top">
-            <span class="oss-name"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>express-boilerplate</span>
-          </div>
-          <p>A backend starter with database wiring and authentication baked in — a clean foundation for standing up a new API service fast.</p>
-          <span class="oss-lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
-        </a>
-
-        <a class="oss reveal" href="https://github.com/abdghani/Google-Ml-Kit-plugin" target="_blank" rel="noopener">
-          <div class="oss-top">
-            <span class="oss-name"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>Google-Ml-Kit-plugin</span>
-          </div>
-          <p>A Flutter plugin implementing Google's standalone ML Kit — bringing on-device machine-learning capabilities to cross-platform mobile apps.</p>
-          <span class="oss-lang"><span class="lang-dot" style="background:#0175C2"></span>Flutter / Dart · MIT</span>
-        </a>
-
-        <a class="oss reveal" href="https://github.com/abdghani/car-pooling-mean-stack-app" target="_blank" rel="noopener">
-          <div class="oss-top">
-            <span class="oss-name"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>car-pooling-mean-stack</span>
-          </div>
-          <p>A carpooling platform built on the MEAN stack (MongoDB, Express, Angular, Node.js) — ride creation, matching, and booking flows.</p>
-          <span class="oss-lang"><span class="lang-dot" style="background:#f1e05a"></span>MEAN Stack</span>
-        </a>
-
-        <a class="oss reveal" href="https://github.com/abdghani/notez-back" target="_blank" rel="noopener">
-          <div class="oss-top">
-            <span class="oss-name"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.3.8 1 .8 2.1v3.1c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>notez</span>
-          </div>
-          <p>A full-stack notes app — a React front end talking to a GraphQL backend. A compact reference for building GraphQL-driven products.</p>
-          <span class="oss-lang"><span class="lang-dot" style="background:#e535ab"></span>React + GraphQL</span>
-        </a>
-
-        <a class="oss reveal" href="https://github.com/abdghani" target="_blank" rel="noopener" style="display:grid;place-items:center;text-align:center;background:var(--grad-soft)">
-          <div>
-            <div class="oss-name" style="justify-content:center;margin-bottom:8px">View all on GitHub</div>
-            <p style="margin:0">34+ repositories across JS, Python, Dart & more →</p>
-          </div>
-        </a>
+      <h3 class="sub-head reveal">Open source</h3>
+      <div class="oss-list reveal">
+        <a href="https://github.com/abdghani/apollo-graphql-compose-mongoose" target="_blank" rel="noopener"><span class="oss-name">apollo-graphql-compose-mongoose</span><span class="oss-desc">Production-ready boilerplate: typed GraphQL API over MongoDB with Apollo Express.</span><span class="oss-lang">JavaScript</span></a>
+        <a href="https://github.com/abdghani/express-boilerplate" target="_blank" rel="noopener"><span class="oss-name">express-boilerplate</span><span class="oss-desc">Backend starter with database wiring and authentication built in.</span><span class="oss-lang">JavaScript</span></a>
+        <a href="https://github.com/abdghani/Google-Ml-Kit-plugin" target="_blank" rel="noopener"><span class="oss-name">Google-Ml-Kit-plugin</span><span class="oss-desc">Flutter plugin that brings Google's standalone on-device ML Kit to mobile apps.</span><span class="oss-lang">Dart</span></a>
+        <a href="https://github.com/abdghani/fierra-similarity" target="_blank" rel="noopener"><span class="oss-name">fierra-similarity</span><span class="oss-desc">Lexical similarity between two sentences. Early NLP work.</span><span class="oss-lang">Python</span></a>
+        <a href="https://github.com/abdghani" target="_blank" rel="noopener"><span class="oss-name">View all on GitHub →</span><span class="oss-desc">30+ public repositories in JavaScript, Python and Dart.</span><span class="oss-lang"></span></a>
       </div>
     </div>
   </section>
@@ -317,27 +373,27 @@
   <section id="stack">
     <div class="container">
       <div class="section-head reveal">
-        <span class="section-index">04</span>
+        <span class="section-index">04 — Stack</span>
         <h2 class="section-title">How I build</h2>
-        <p class="section-sub">Full-stack across the modern JavaScript ecosystem, with a strong data and ML backbone.</p>
+        <p class="section-sub">Backend first, with the data and AI tooling to make products smart.</p>
       </div>
 
       <div class="stack-grid">
         <div class="stack-col reveal">
-          <h4>Languages</h4>
-          <ul><li>JavaScript / TypeScript</li><li>Python</li><li>Dart</li><li>PHP</li><li>C / C++ · Java</li></ul>
-        </div>
-        <div class="stack-col reveal">
-          <h4>Frontend</h4>
-          <ul><li>React</li><li>Angular</li><li>Flutter (mobile)</li><li>Apollo Client</li></ul>
-        </div>
-        <div class="stack-col reveal">
           <h4>Backend</h4>
-          <ul><li>Node.js · Express</li><li>Apollo GraphQL</li><li>Django</li><li>REST & real-time APIs</li></ul>
+          <ul><li>Node.js · Express</li><li>Apollo GraphQL · REST</li><li>Python · Django</li><li>TypeScript</li><li>OAuth 2.0 / JWT auth</li></ul>
         </div>
         <div class="stack-col reveal">
-          <h4>Data & ML</h4>
-          <ul><li>MongoDB</li><li>Web scraping pipelines</li><li>ML clustering · NLP</li><li>Telegram bots · gateways</li></ul>
+          <h4>AI &amp; LLM</h4>
+          <ul><li>LLM agents · tool use · ReAct</li><li>RAG · embeddings · vector DBs</li><li>Anthropic Claude · OpenAI</li><li>Prompt engineering</li><li>Schema-validated output</li></ul>
+        </div>
+        <div class="stack-col reveal">
+          <h4>Data &amp; ML</h4>
+          <ul><li>MongoDB · Redis</li><li>Qdrant (vector DB)</li><li>Semantic search</li><li>NLP · scraping at scale</li></ul>
+        </div>
+        <div class="stack-col reveal">
+          <h4>Infra</h4>
+          <ul><li>Bull / BullMQ · Redis queues</li><li>AWS: ECS, Elastic Beanstalk</li><li>CloudFormation · S3 · CloudFront</li><li>Docker · Railway</li><li>React · Flutter</li></ul>
         </div>
       </div>
     </div>
@@ -347,25 +403,21 @@
   <section id="contact">
     <div class="container">
       <div class="contact reveal">
-        <h2>Let's build something.</h2>
-        <p>Whether you're hiring a senior engineer, sizing up a technical co-founder, or want a walkthrough of any project here — I'd love to talk.</p>
-        <div class="hero-actions">
-          <a href="mailto:abdullah.ghani3@gmail.com" class="btn btn-primary">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            abdullah.ghani3@gmail.com
-          </a>
-          <a href="https://in.linkedin.com/in/abdullah-ghani-76a7b0115" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
-          <a href="https://github.com/abdghani" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <h2>Hiring for backend + AI?</h2>
+        <p>I'm open to senior backend engineering roles where AI is part of the product. I'm happy to walk through any system on this page in depth.</p>
+        <div class="hero-actions center">
+          <a href="mailto:abdullah.ghani3@gmail.com" class="btn btn-primary">abdullah.ghani3@gmail.com</a>
+          <a href="Abdullah_Ghani_Resume.pdf" download class="btn btn-ghost">Download resume (PDF)</a>
+          <a href="https://www.linkedin.com/in/abdullah-ghani-76a7b0115/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
     <div class="container footer-inner">
       <div>© <span id="year">2026</span> Abdullah Ghani · Bengaluru, India</div>
-      <div>Backend Lead <a href="https://delightree.com" target="_blank" rel="noopener">@Delightree</a> · Founder, DecodeCX</div>
+      <div><a href="https://github.com/abdghani" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/abdullah-ghani-76a7b0115/" target="_blank" rel="noopener">LinkedIn</a></div>
     </div>
   </footer>
 

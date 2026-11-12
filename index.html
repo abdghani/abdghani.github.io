@@ -125,7 +125,7 @@
         </p>
 
         <div class="pipeline" aria-label="AI Analyst architecture">
-          <div class="pipe-step"><span class="pipe-k">Route</span><span class="pipe-v">An LLM router picks the right tools from ~100 across 14 business domains</span></div>
+          <div class="pipe-step"><span class="pipe-k">Route</span><span class="pipe-v">An LLM router selects the right tools from a catalog spanning the whole business</span></div>
           <div class="pipe-arrow">→</div>
           <div class="pipe-step"><span class="pipe-k">Gather</span><span class="pipe-v">A ReAct agent calls those tools against live platform data</span></div>
           <div class="pipe-arrow">→</div>
@@ -135,7 +135,7 @@
         </div>
 
         <ul class="ai-points">
-          <li><strong>Two-stage design:</strong> the router narrows ~100 tools down to the few that matter, which keeps the agent fast and focused.</li>
+          <li><strong>Two-stage design:</strong> the router narrows a large tool catalog down to the few tools a question needs, which keeps the agent fast and focused.</li>
           <li><strong>Built on the LangChain ecosystem:</strong> the router → ReAct → answer flow is orchestrated as a LangGraph graph, with every data source exposed as a typed LangChain tool.</li>
           <li><strong>Numbers you can trust:</strong> results are checked again and rebuilt from the same metric catalog the dashboards use, so chat and dashboards always agree.</li>
           <li><strong>Structured output:</strong> answers follow a schema, so the frontend can show tables, charts and action buttons instead of plain text.</li>
@@ -240,7 +240,7 @@
             <div class="tl-top"><span class="tl-role">Backend Lead</span> <span class="tl-company">· Delightree</span> <span class="tl-badge">Current</span></div>
             <p class="tl-desc">Franchise management platform. I lead backend development, with a focus on AI-powered features.</p>
             <ul class="tl-points">
-              <li>Built the <strong>AI Analyst</strong>, a two-stage LLM agent on LangChain and LangGraph. A router picks from ~100 tools across 14 business domains, a ReAct agent gathers live data, and a second model writes a schema-validated answer.</li>
+              <li>Built the <strong>AI Analyst</strong>, a two-stage LLM agent on LangChain and LangGraph. A router selects the right tools from a catalog spanning the whole business, a ReAct agent gathers live data, and a second model writes a schema-validated answer.</li>
               <li>Made its numbers trustworthy: every figure is computed in code, then checked again and rebuilt from the same <strong>metric catalog</strong> the dashboards use, so chat and dashboards always agree.</li>
               <li>Built <strong>AI Search</strong>, a vector-based RAG engine that answers plain-English questions across franchisors' whole SOP library and cites its sources.</li>
             </ul>

@@ -267,3 +267,8 @@ section + section { border-top: 1px solid var(--border); }
 
 .ai-feature-compact { background: var(--surface); }
 .ai-feature .card-links { margin-top: 18px; }
+
+/* keep the hero tagline on one line on desktop */
+@media (min-width: 981px) {
+  .hero-lead { white-space: nowrap; font-size: clamp(1.1rem, 1.85vw, 1.5rem); }
+}
